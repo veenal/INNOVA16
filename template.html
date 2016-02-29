@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>INNOVA TEMPLATE
+</title>
+<link rel="stylesheet" href="E:/elixir/assignments/font-awesome-4.5.0/css/font-awesome.min.css">
+<style type="text/css">
+body{
+background-color:black;
+margin:0 auto;}
+main{
+width:700px;
+background-size:100%;
+background-color:white;
+margin:0 auto;
+}
+header{
+background-image:url("images/header-bg.jpg");
+background-size:700px auto;
+height:350px;
+background-repeat:no-repeat;
+display:flex;
+flex-direction:column;
+color:white;
+}
+#Header
+{
+display:flex;
+justify-content:space-around;
+padding-bottom:50px;
+}
+img{
+align-self:center;}
+.firstlist 
+{
+list-style-type:none;
+display:flex;
+flex-direction:row;
+justify-content:flex-end;
+
+}
+li a
+{
+color:white;
+text-decoration:none;padding:10px;
+font-size:10px;
+}
+
+#rest
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+h1,h2
+{
+margin:10px auto;}
+h1
+{
+    font-family:Montserrat;
+	font-weight:700;
+	font-size : 40;}
+h2
+{
+	font-family:"Droid Serif";
+	font-style:italic;
+	font-weight:200;
+	font-size : 30;}
+	
+#contact
+{
+padding:50px;
+background-image:url("images/contact-us-bg.jpg");
+background-size:750px;
+background-repeat:no-repeat;
+}
+
+#contact>.header
+{
+text-align:center;
+//border:1px solid red;
+line-height:0px;
+margin-bottom:40px;
+color:white;
+}
+#contact>.header>p
+{
+font-size:15px;
+color:rgb(144, 143, 143);}
+
+
+#contact>.contactus
+{
+display:flex;
+flex-direction:column;
+justify-content:center:
+align-items:center;
+//border:1px solid black;}
+
+#contact>div>div
+{
+display:flex;
+flex-flow:column wrap;
+justify-content:space-between;
+height:150px;
+//border:1px solid red;
+margin-bottom:20px;
+}
+#contact>div>div>textarea
+
+{
+margin-right:20px;
+padding:5px;
+font-family:Droid Serif;
+font-size : 10px;
+color: rgb(144, 143, 143);
+}
+
+#contact .submit
+{
+margin:auto;
+height:30px;
+width:170px;
+color:white;
+background-color:yellow;
+//border:1px solid red;}
+
+footer{
+ display : flex;
+flex-direction:row;
+width:700px;
+}
+
+footer p{
+     font-family: montserrat;
+     font-size: 12px;
+     font-weight: 400;
+     margin-left: 70px;
+margin-right:50px;
+}
+
+footer a
+{
+color:black;
+font-size:10px;
+}
+
+
+</style>
+</head>
+
+<body>
+<main>
+       <header>
+	       <div id="Header">
+		         <img src="images/main-logo.png" height="20px" width="40px">
+				 <ul class="firstlist">
+				   <li><a href="#">HOME</a></li>
+				   <li><a href="#">EVENTS</a></li>
+				   <li><a href="#">GUESTS</a></li>
+				   <li><a href="#">ABOUT</a></li>
+				   <li><a href="#">CONTACT</a></li>
+				 </ul>
+		   
+		   </div>
+		   <div id="rest">
+		   <h2>EVENT NAME</h2>
+		   <h1>A brief description</h1>
+		   </div>
+	   </header>
+	   
+	   <div id="EVENT">
+	      
+		  
+	    <div class="header">
+		    <h3>EVENT</h3>
+	          <p>About the Event
+	          </p>
+		</div>
+	  
+	      <!--Add the details of the event and picture here-->
+	   </div>
+	   
+	   
+	   <div id="contact">
+      <div class="header">
+      <h4>CONTACT US</h4>
+	  <p>This is the text of Contact Us</p>
+	  </div>
+	  <div class="contactus">
+	    <div>
+		    <textarea rows="2" cols="25">YOUR NAME*</textarea>
+			<textarea rows="2" cols="25">YOUR EMAIL*</textarea>
+			<textarea rows="2" cols="25">SUBJECT</textarea>
+			<textarea rows="13" cols="25">YOUR MESSAGE*</textarea>
+		</div>
+		<input type="submit" class="submit" value="SUBMIT">
+	  </div>
+  </div>
+  <footer>
+       <p><i class="fa fa-copyright"></i>Copyright 2016 Innova team</p>
+	   <div>
+	   <a href="add the links here"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+	   <a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+	   <a href=""><span class="fa-stack fa-lg"><i class="fa fa-pinterest fa-stack-2x"></i></span></a>
+	   <a href=""><span class="fa-stack fa-lg">><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a>
+	   </div>
+  </footer>	   
+	   
+</main>
+</body>
+</html>
